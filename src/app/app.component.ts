@@ -20,6 +20,21 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Gerar e ler QRCODE',
+      url: '/gerar-e-ler-qrcode',
+      icon: 'list'
+    },
+    {
+      title: 'Impressão',
+      url: '/imprimir',
+      icon: 'list'
+    },
+    {
+      title: 'Impressão 2',
+      url: '/imprimir2',
+      icon: 'list'
     }
   ];
 

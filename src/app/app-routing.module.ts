@@ -14,7 +14,10 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
-  }
+  },
+  { path: 'gerar-e-ler-qrcode', loadChildren: './gerar-e-ler-qrcode/gerar-e-ler-qrcode.module#GerarELerQrcodePageModule' },
+  { path: 'imprimir', loadChildren: './imprimir/imprimir.module#ImprimirPageModule' },
+  { path: 'imprimir2', loadChildren: './imprimir2/imprimir2.module#Imprimir2PageModule' }
 ];
 
 @NgModule({
